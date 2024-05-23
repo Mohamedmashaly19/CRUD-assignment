@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/all.min.css" />
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="./CSS/styel.css" />
+  </head>
+
+  <body>
+<section class=" m-5">
+  <div class="text-center">
+
+    <h1 class="text-center">Bookmarker</h1>
+  </div>
+  <div class="container cont-border my-5 py-4">
+<h5 class=" h4 fw-bolder text-center"><i class="fa-solid fa-bookmark"></i>
+   Bookmark your favorite sites <i class="fa-solid fa-bookmark"></i> </h5>
+<label   class="fw-bold my-2" for=" Site Name"><i class="fa-solid fa-book-bookmark me-2"></i> Site Name</label>
+<input placeholder="Bookmark Name" class="w-100 form-control mb-3" type="text" id="siteName">
+<label  class="fw-bold my-2" for=" Site-URL"><i class="fa-solid fa-link me-2 fw-bolder"></i> SiteURL</label>
+<input placeholder="Website URL" class="w-100 form-control" type="text" id="siteURL">
+
+<button class="btn submit-btn mt-5 mx-auto px-5 d-flex" id="submit">submit</button>
+  </div>
+  <table class="container ">
+    <thead class="bg-light ">
+      <tr>
+        <th class="fw-bolder p-3">Index</th>
+        <th class="fw-bolder p-3">Website Name</th>
+        <th class="fw-bolder p-3">Edit</th>
+        <th class="fw-bolder p-3">Visit</th>
+        <th class="fw-bolder p-3">Delete</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody">
+
+    </tbody>
+  </table>
+  
+</section>
+
+
+    <script src="./JS/bootstrap.bundle.js"></script>
+    <script src="./JS/script.js"></script>
+  </body>
+</html>
